@@ -1,6 +1,5 @@
 # badmoodle-scan
-Сканування за допомогою ПЗ Badmoodle системи дистанційного навчання ДУІТЗ
-
+Сканування системи дистанційного навчання ДУІТЗ за допомогою ПЗ Badmoodle 
 
 $ ./badmoodle.py -u e-learning.suitt.edu.ua -l 2                      
 
@@ -1265,4 +1264,4 @@ Link to advisory: https://moodle.org/security/index.php?o=3&p=21#p1483858
                                                                                                                 
 [-] No community vulnerabilities have been found in the scanned host
 
-[+] Exiting from badmoodl
+[+] Exiting from badmoodle
