@@ -9,136 +9,6 @@ Developers assume no liability and are not responsible for any misuse or damage 
 [*] Starting scan in URL "http://e-learning.suitt.edu.ua"
 [+] Moodle version: v3.4
 [+] Moodle specific version: v3.4.1
-[*] Enumerating moodle plugins and themes
-
-[+] Found theme
-Name: Adaptable
-Type: theme
-Description: Adaptable is a highly customisable responsive two column theme designed for use on both large University installations as well as small training companies.
-URL: https://moodle.org/plugins/theme_adaptable
-Found from: http://e-learning.suitt.edu.ua/theme/adaptable/version.php
-
-[+] Found plugin
-Name: BigBlueButtonBN
-Type: mod
-Description: Integrate BigBlueButton within Moodle - including record and playback of sessions.
-URL: https://moodle.org/plugins/mod_bigbluebuttonbn
-Found from: http://e-learning.suitt.edu.ua/mod/bigbluebuttonbn/version.php
-
-[+] Found theme
-Name: Eduhub
-Type: theme
-Description: Eduhub theme is fantastic theme for educational purpose. It has clean layout and awesome features on setting page.
-URL: https://moodle.org/plugins/theme_eduhub
-Found from: http://e-learning.suitt.edu.ua/theme/eduhub/version.php
-
-[+] Found plugin
-Name: Offline attempts access rule
-Type: quizaccess
-Description: This plugin adds a new access rule to allow the quiz to be downloaded for offline usage in the Moodle Mobile app.
-It requires the "Moodle Mobile additional features" (local_mobile) plugin installed.
-URL: https://moodle.org/plugins/quizaccess_offlineattempts
-Found from: http://e-learning.suitt.edu.ua/mod/quiz/accessrule/offlineattempts/version.php
-
-[+] Found plugin
-Name: Import competency framework
-Type: tool
-Description: This admin tool allows import/export of competency frameworks using a                                                               
-comma separated value file (CSV).                                                                                                   
-                                                                                                                                    
-This imports and exports all data contained in the competency                                                                       
-framework including related competencies, and any configured                                                                        
-competency rules.
-URL: https://moodle.org/plugins/tool_lpimportcsv
-Found from: http://e-learning.suitt.edu.ua/admin/tool/lpimportcsv/
-
-[+] Found plugin
-Name: Drag and drop onto image
-Type: qtype
-Description: As of Moodle 3.0, this question type is part of the standard Moodle release. That is why there is no plugin from Moodle 3.x. You don't need one!
-
-URL: https://moodle.org/plugins/qtype_ddimageortext
-Found from: http://e-learning.suitt.edu.ua/question/type/ddimageortext/version.php
-
-[+] Found plugin
-Name: Drag and drop markers
-Type: qtype
-Description: The student can drag markers to indicate key features on an image.
-URL: https://moodle.org/plugins/qtype_ddmarker
-Found from: http://e-learning.suitt.edu.ua/question/type/ddmarker/version.php
-
-[+] Found plugin
-Name: Drag and drop into text
-Type: qtype
-Description: A drag and drop question type where missing words have to be dragged into gaps in a paragraph of text.
-URL: https://moodle.org/plugins/qtype_ddwtos
-Found from: http://e-learning.suitt.edu.ua/question/type/ddwtos/version.php
-
-[+] Found plugin
-Name: Select missing words
-Type: qtype
-Description: This question type allows students to complete a paragraph of text by selecting the missing words using drop-down menus.
-URL: https://moodle.org/plugins/qtype_gapselect
-Found from: http://e-learning.suitt.edu.ua/question/type/gapselect/version.php
-
-[+] Found plugin
-Name: Mobile notifications
-Type: message
-Description: Message output plugin that enables mobile push notifications in the official Moodle Mobile app.  See http://docs.moodle.org/en/Mobile_app_Push_Notifications for more information
-
-This plugin will be integrated in Moodle core starting version 2.7.
-URL: https://moodle.org/plugins/message_airnotifier
-Found from: http://e-learning.suitt.edu.ua/message/output/airnotifier/version.php
-
-[+] Found plugin
-Name: Grade history
-Type: gradereport
-Description: A grader report for Moodle that allows you to view an audit trail of what happened to grades overtime.
-URL: https://moodle.org/plugins/gradereport_history
-Found from: http://e-learning.suitt.edu.ua/grade/report/history/version.php
-
-[+] Found plugin
-Name: Manage embedded files
-Type: tinymce
-Description: This plugin will add a button to the TinyMCE text editor in Moodle that allows to manage files embedded in the current text area.
-URL: https://moodle.org/plugins/tinymce_managefiles
-Found from: http://e-learning.suitt.edu.ua/lib/editor/tinymce/plugins/managefiles/version.php
-
-[+] Found plugin
-Name: Atto HTML editor
-Type: editor
-Description: Lightweight, accessible, fast, mobile friendly text editor. 
-URL: https://moodle.org/plugins/editor_atto
-Found from: http://e-learning.suitt.edu.ua/lib/editor/atto/version.php
-
-[+] Found plugin
-Name: Microsoft Skydrive
-Type: repository
-Description: A repository plugin to access your documents from Microsoft Skydrive in Moodle.
-URL: https://moodle.org/plugins/repository_skydrive
-Found from: http://e-learning.suitt.edu.ua/repository/skydrive/version.php
-
-[+] Found plugin
-Name: Single activity format
-Type: format
-Description: Allows to create course that consists of only one activity
-URL: https://moodle.org/plugins/format_singleactivity
-Found from: http://e-learning.suitt.edu.ua/course/format/singleactivity/version.php
-
-[+] Found plugin
-Name: Embedded files
-Type: repository
-Description: "Embedded files" (repository_areafiles) plugin allows to re-use the files embedded in the current text area. 
-URL: https://moodle.org/plugins/repository_areafiles
-Found from: http://e-learning.suitt.edu.ua/repository/areafiles/version.php
-
-[+] Found plugin
-Name: Book
-Type: mod
-Description: Simple multipage resource module
-URL: https://moodle.org/plugins/mod_book
-Found from: http://e-learning.suitt.edu.ua/mod/book/version.php
-
 [*] Checking for official vulnerabilities from vulnerability database
 
 [+] Found Vulnerability
@@ -182,7 +52,7 @@ MSA-21-0040: Reflected XSS in filetype admin tool
 CVEs: CVE-2021-43558
 Versions affected: 3.11 to 3.11.3, 3.10 to 3.10.7, 3.9 to 3.9.10 and earlier unsupported versions
 Link to advisory: https://moodle.org/security/index.php?o=3&p=0#p1726802
-
+===================================================================================================
 [+] Found Vulnerability
 MSA-21-0039: Upgrade moodle-mlbackend-python and update its reference in /lib/mlbackend/python/classes/processor.php (upstream)
 CVEs: N/A
@@ -206,7 +76,7 @@ MSA-21-0035: Arbitrary file read by site administrators via LaTeX preamble
 CVEs: CVE-2021-40694
 Versions affected: 3.11 to 3.11.2, 3.10 to 3.10.6, 3.9 to 3.9.9 and earlier unsupported versions
 Link to advisory: https://moodle.org/security/index.php?o=3&p=1#p1719328
-
+========================================================================================================
 [+] Found Vulnerability
 MSA-21-0034: Authentication bypass risk when using external database authentication
 CVEs: CVE-2021-40693
@@ -254,7 +124,7 @@ MSA-21-0025: Messaging web service allows deletion of other users' messages
 CVEs: CVE-2021-36397
 Versions affected: 3.11, 3.10 to 3.10.4, 3.9 to 3.9.7 and earlier unsupported versions
 Link to advisory: https://moodle.org/security/index.php?o=3&p=2#p1710822
-
+===============================================================================================
 [+] Found Vulnerability
 MSA-21-0024: Blind SSRF possible against cURL blocked hosts via redirect
 CVEs: CVE-2021-36396
