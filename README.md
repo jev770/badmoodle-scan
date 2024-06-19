@@ -1,18 +1,11 @@
 # badmoodle-scan
 Сканування за допомогою ПЗ Badmoodle системи дистанційного навчання ДУІТЗ
 
-┌──(dip12㉿kali12)-[~/badmoodle]
-└─$ ./badmoodle.py -u e-learning.suitt.edu.ua -l 2                      
 
- ▄▄                  ╗▄                                ╗╗  ╗m         
- ██                  ▓█                                ╣╫ ▐╫Ñ         
- ██▄▄▄▄  ,▄▄▄▄▄  ╓▄▄▄██  ╔╗╗╗╗╗╗╗,  ╔@Φ╗╗  ,╗ΦΦ╗,  ╔╗Φ╗╣╫ ▐╫Ñ ,╗ΦK╗,  
- ██  ╙█▌▐█▌  ║█M║█▌  ██ ▐╫H ╟╫` ╬╫ ╣╫  ▐╫N ╫M  ╟╫H╟╫M  ╬╫ ▐╫Ñ ╬Ñ╗╗╬╫H 
- ██▄▄▄█Ñ ██▄▄██M╙██▄▄██ ▐╫H ╟╫  ╬╫ ╙╬N╗╬╣` ╝╬╗╗╬M ╙╬N╗╗╣╫ ▐╫Ñ ╚╬╗╓╗K^ 
- `` ``    `└ ``   `└ ``  `   `  ``    ,╓╗╗╗╗╗µ       `          ``    
-                                     ╝╜"`   `╙╜M               [v0.2] 
-    Moodle community-based vulnerability scanner
-             by cyberaz0r
+$ ./badmoodle.py -u e-learning.suitt.edu.ua -l 2                      
+
+Moodle community-based vulnerability scanner[v0.2] 
+by cyberaz0r
 
 Legal disclaimer
 Usage of badmoodle for attacking targets without prior mutual consent is illegal.
